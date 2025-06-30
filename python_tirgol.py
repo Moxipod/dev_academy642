@@ -1,0 +1,1 @@
+print([x*3 for x in range(1,51) if not (x*3)%4==0 ])
