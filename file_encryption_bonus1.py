@@ -16,7 +16,7 @@ def decrypt_and_uncrypt(file,xor_key):
 
 
 
-filename = input("Enter filename: with end . for example if name is text enter text.txt you need to have that file in same folder") #try with dogi.jpeg
+filename = input("Enter the filename (including extension, e.g. data.txt): ")
 xor_key = 13
 decrypt_and_uncrypt(filename,xor_key)
 
