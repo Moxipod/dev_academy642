@@ -13,6 +13,7 @@ def two_complement(binary_num,bitsize):
     flipped = ''.join('1' if bit == '0' else '0' for bit in binary_num)
     complement_int = int(flipped, 2) + 1
     return decimal_to_binary(complement_int,bitsize)
+
 def main():
     positive_decimal, bit_size = get_input()
 
