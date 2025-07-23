@@ -1,3 +1,4 @@
+
 def decrypt_and_uncrypt(file,xor_key):
     """
     enter the name of the file you want to decrypt or uncrypt 
