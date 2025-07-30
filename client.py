@@ -109,7 +109,7 @@ def create_client():
     Create a TCP client socket and connect to the server.
     """
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.connect(("149.106.246.173", 8080))
+    s.connect(("149.106.246.173", 7766))
     return s
 
 def upload_file(client_socket, file_path):
