@@ -27,7 +27,7 @@ def upload_file_list(client_socket):
     The list is sent as a UTF-8 encoded string with '::' separating filenames.
     """
     folder_path = r"C:\Users\User\Desktop\pythonProj\dev_academy642\server_folder"
-    os.makedirs(folder_path, exist_ok=True)
+    os.makedirs(folder_path, exist_ok=True)2
     files = os.listdir(folder_path)
     file_list_str = "::".join(files)
     encoded = file_list_str.encode()
